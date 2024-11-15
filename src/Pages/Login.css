@@ -1,0 +1,132 @@
+body, html {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(186, 198, 197);
+}
+
+.uform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  background-color: gray;
+  border: 2px solid whitesmoke;
+  border-radius: 21px;
+  margin-left: 3.2%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs styling */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: black;
+  background-color: rgb(235, 239, 239);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.4);
+  outline: none;
+}
+
+button {
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #3b82f6;
+  color: #f9fafb;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+@media (max-width: 1024px) {
+  .uform {
+    margin-left: 10%;
+    padding: 1.5rem;
+  }
+
+  button {
+    width: 60%; 
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 1.75rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .uform {
+    margin-left: 5%;
+    padding: 1.2rem;
+  }
+
+  button {
+    width: 70%; 
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 1.5rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .uform {
+    margin-left: 2%;
+    padding: 1rem;
+  }
+
+  button {
+    width: 80%; 
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 1.2rem; 
+  }
+}
+.animatedText {
+  display: inline-block;
+  font-size: 2rem;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden; 
+  width: 0;
+  animation: typing 4s steps(30) forwards, blink 0.75s step-end infinite; 
+}
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
