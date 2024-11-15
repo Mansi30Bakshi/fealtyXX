@@ -102,5 +102,11 @@ To log in, use the following credentials:
 - **CSS**: For styling the application.
 - **JavaScript (ES6)**: For logic and functionality.
 
+## Live Demo
+
+You can access the live version of the application at: [Task Management App](https://taskfealtyx.vercel.app/)
+
+
+
 
 
