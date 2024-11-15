@@ -1,6 +1,6 @@
 # Task Management Application
 
-This is a task management application built with React using Vite. The app allows users to create, edit, delete, and manage tasks. Each task has details such as title, description, priority, status, assignee, and time spent. It also includes a timer functionality to track time spent on each task. Additionally, it features a task trend chart that visualizes the number of tasks created per day.
+This is a task management application built with React. The app allows users to create, edit, delete, and manage tasks. Each task has details such as title, description, priority, status, assignee, and time spent. It also includes a timer functionality to track time spent on each task. Additionally, it features a task trend chart that visualizes the number of tasks created per day.
 
 ## Features
 
@@ -56,6 +56,28 @@ The `TaskTrendChart` component visualizes the number of tasks created per day us
   - The component processes the `tasks` prop to count the number of tasks created on each day.
   - It then updates the chart data to display a line chart showing the task count per day.
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Mansi30Bakshi/fealtyXX.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   cd fealtyXX
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   The app should now be running at [http://localhost:5173](http://localhost:5173).
 
 ## Login Credentials
 
@@ -79,4 +101,6 @@ To log in, use the following credentials:
 - **react-chartjs-2**: A React wrapper for Chart.js to integrate charts in React applications.
 - **CSS**: For styling the application.
 - **JavaScript (ES6)**: For logic and functionality.
+
+
 
